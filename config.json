@@ -1,0 +1,15 @@
+[1mdiff --git a/backend/tsconfig.json b/backend/tsconfig.json[m
+[1mindex b5df0b3..b713b3d 100644[m
+[1m--- a/backend/tsconfig.json[m
+[1m+++ b/backend/tsconfig.json[m
+[36m@@ -40,9 +40,7 @@[m
+         // "rootDirs": [],                                   /* Allow multiple folders to be treated as one when resolving modules. */[m
+         // "typeRoots": [],                                  /* Specify multiple folders that act like './node_modules/@types'. */[m
+         "types": [[m
+[31m-            "vite/client",[m
+[31m-            "vue/tsx",[m
+[31m-            "./resources/js/types"[m
+[32m+[m[32m            "vite/client"[m
+         ] /* Specify type package names to be included without being referenced in a source file. */,[m
+         // "allowUmdGlobalAccess": true,                     /* Allow accessing UMD globals from modules. */[m
+         // "moduleSuffixes": [],                             /* List of file name suffixes to search when resolving a module. */[m
